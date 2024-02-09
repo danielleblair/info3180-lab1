@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
     <h1>Danielle Blair</h1>
     <p>I am a third year student at the University of the West Indies. </p>
     <p>I like cheesecake</p>
+    <img src="{{ url_for('static', filename='food-Cheesecake.jpg') }}" alt="Cheesecake pic" width="600" height="350"/>
 </body>
 </html>
